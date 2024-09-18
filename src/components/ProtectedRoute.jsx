@@ -24,7 +24,7 @@ const ProtectedRoute = ({ element }) => {
     return <div>Loading...</div>; // Or any loading component you prefer
   }
 
-  return isAuth ? element : <Navigate to="/login" replace />;
+  return isAuth ? element : <Navigate to="/" replace />;
 };
 
 ProtectedRoute.propTypes = {

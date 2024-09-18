@@ -15,7 +15,7 @@ const SignUp = () => {
 
 
   const handleNavigate=()=>{
-    navigate("/login")
+    navigate("/")
   }
 
   const handleSubmit = async (e) => {

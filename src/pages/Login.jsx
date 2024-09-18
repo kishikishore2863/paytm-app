@@ -115,7 +115,7 @@ const handleNavigate=()=>{
               </button>
             </div>
             <div>
-              <span>Don't have an account?</span> <span onClick={handleNavigate} className='text-blue-500 cursor-pointer'>Signup</span>
+              <span>Do not have an account?</span> <span onClick={handleNavigate} className='text-blue-500 cursor-pointer'>Signup</span>
 
             </div>
           </form>
