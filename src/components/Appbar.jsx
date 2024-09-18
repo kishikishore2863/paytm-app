@@ -13,7 +13,7 @@ const Appbar = () => {
 
     const handleLogout = () => {
       Logout();
-      navigate('/login'); // Redirect to the login page after logout
+      navigate('/'); // Redirect to the login page after logout
     };
 
     const fetchData= async ()=>{
