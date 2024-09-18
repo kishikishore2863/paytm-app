@@ -30,7 +30,7 @@ const Send = () => {
 
     try {
       const res = await axios.post(
-        "http://localhost:3008/api/v1/account/transfer",
+        "https://paytm-server-hazel.vercel.app/api/v1/account/transfer",
         {
           to: id,
           amount: parseFloat(amount),

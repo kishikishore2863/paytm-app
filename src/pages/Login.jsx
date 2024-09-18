@@ -22,7 +22,7 @@ const Login = () => {
     // Handle login logic here
     console.log(username)
     try {
-        const response = await axios.post("http://localhost:3008/api/v1/user/login", { username:username, password:password });
+        const response = await axios.post("https://paytm-server-hazel.vercel.app/api/v1/user/login", { username:username, password:password });
         const data =await response.data;
         console.log(data);
         if (data.token) {

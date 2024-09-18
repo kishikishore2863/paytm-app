@@ -15,7 +15,7 @@ const AddMoney = () => {
     setError('');
     try {
       const res = await axios.post(
-        "http://localhost:3008/api/v1/account/add-money",
+        "https://paytm-server-hazel.vercel.app/api/v1/account/add-money",
         { amount: Number(amount) },
         {
           headers: {

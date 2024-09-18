@@ -11,7 +11,7 @@ const Balance = () => {
   const fetchData = async () => {
     try {
       const res = await axios.get(
-        "http://localhost:3008/api/v1/account/balance",
+        "https://paytm-server-hazel.vercel.app/api/v1/account/balance",
         {
           headers: {
             Authorization: `Bearer ${cookies.get("token")}`,

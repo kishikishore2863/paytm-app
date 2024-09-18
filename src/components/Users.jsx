@@ -17,7 +17,7 @@ const Users = () => {
       setIsLoading(true);
       setError(null);
       try {
-        const res = await axios.get(`http://localhost:3008/api/v1/account/bulk?filter=${filter}`, {
+        const res = await axios.get(`https://paytm-server-hazel.vercel.app/api/v1/account/bulk?filter=${filter}`, {
           headers: {
             Authorization: `Bearer ${cookies.get("token")}`
           }

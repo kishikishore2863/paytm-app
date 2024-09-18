@@ -12,7 +12,7 @@ const RecentTransactions = () => {
   useEffect(() => {
     const fetchTransactions = async () => {
       try {
-        const response = await axios.get('http://localhost:3008/api/recent-transactions', {
+        const response = await axios.get('https://paytm-server-hazel.vercel.app/api/recent-transactions', {
           headers: {
             Authorization: `Bearer ${cookies.get('token')}`
           }

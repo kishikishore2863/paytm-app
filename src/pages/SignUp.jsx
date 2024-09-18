@@ -22,7 +22,7 @@ const SignUp = () => {
     e.preventDefault();
     // Handle sign-up logic
     try {
-      const response = await axios.post("http://localhost:3008/api/v1/user/signup", {
+      const response = await axios.post("https://paytm-server-hazel.vercel.app/api/v1/user/signup", {
         username,
         password,
         firstName,
